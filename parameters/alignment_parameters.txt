@@ -1,0 +1,10 @@
+Alignment Parameters
+====================
+
+This file contains the parameters used for data alignment in the AIPC tomography spike analysis.
+
+Parameters:
+- Alignment method: cross-correlation
+- Reference frame: first frame
+- Max shift: 10 pixels
+- Interpolation: bilinear

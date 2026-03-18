@@ -1,0 +1,10 @@
+Workflow Notes
+==============
+
+This file documents the workflow used for the AIPC tomography spike analysis.
+
+Steps:
+1. Data acquisition
+2. Preprocessing and alignment
+3. Spike detection and analysis
+4. Result summarization and reporting

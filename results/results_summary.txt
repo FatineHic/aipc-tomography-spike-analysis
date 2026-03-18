@@ -1,0 +1,9 @@
+Results Summary
+===============
+
+This file summarizes the results of the AIPC tomography spike analysis.
+
+Summary:
+- Number of detected spikes: TBD
+- Mean spike amplitude: TBD
+- Analysis period: TBD

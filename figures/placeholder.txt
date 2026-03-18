@@ -1,0 +1,4 @@
+Figures Placeholder
+===================
+
+This directory will contain figures generated during the AIPC tomography spike analysis.
