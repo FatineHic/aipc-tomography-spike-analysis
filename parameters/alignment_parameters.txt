@@ -1,0 +1,19 @@
+ALIGNMENT PARAMETERS
+
+Patch Size: 800 x 800
+Overlap: 0.33
+Iterations: Increased for accuracy
+
+Tomogram Thickness: 300 nm
+Target Residual Error: 0.35 nm
+
+Mask:
+- Type: Cylindrical
+- Radius: 20
+- Height: 35
+- Center Shift: 10
+
+Symmetry: C3
+Azimuth Rotation Range: 120°
+
+Cone Aperture: 60°
