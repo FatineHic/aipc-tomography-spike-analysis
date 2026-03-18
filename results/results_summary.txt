@@ -1,0 +1,32 @@
+AIPC Tomography Spike Analysis - Results Summary
+=================================================
+
+Date: 2026-03-18
+Analysis Version: 1.0
+
+Dataset Information:
+--------------------
+  Number of scans processed: -
+  Total spikes detected: -
+  Analysis region: -
+
+Spike Detection Results:
+------------------------
+  True positives: -
+  False positives: -
+  False negatives: -
+  Precision: -
+  Recall: -
+  F1 Score: -
+
+Alignment Quality:
+------------------
+  Mean registration error: -
+  Max registration error: -
+
+Notes:
+------
+- Results will be populated after running the full analysis pipeline.
+- See scripts/workflow_notes.txt for the processing workflow.
+- See parameters/alignment_parameters.txt for alignment settings used.
+- Figures are stored in the figures/ directory.

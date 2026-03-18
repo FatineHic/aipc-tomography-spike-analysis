@@ -1,0 +1,37 @@
+AIPC Tomography Spike Analysis - Workflow Notes
+================================================
+
+Overview:
+---------
+This document describes the workflow for AIPC (AI-Powered Computed) tomography spike analysis.
+
+Steps:
+------
+1. Data Acquisition
+   - Collect tomography scan data
+   - Verify data integrity and completeness
+
+2. Preprocessing
+   - Apply noise reduction filters
+   - Normalize intensity values
+
+3. Alignment
+   - Use alignment parameters defined in parameters/alignment_parameters.txt
+   - Perform rigid/affine registration as needed
+
+4. Spike Detection
+   - Apply spike detection algorithm
+   - Threshold-based filtering of spike candidates
+
+5. Analysis
+   - Quantify spike properties (size, location, intensity)
+   - Statistical analysis of detected spikes
+
+6. Results
+   - Export results to results/results_summary.txt
+   - Generate figures in figures/
+
+Notes:
+------
+- Ensure all input data is backed up before processing.
+- Consult the full report in report/aipc_report.pdf for methodology details.

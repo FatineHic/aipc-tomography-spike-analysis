@@ -1,0 +1,33 @@
+AIPC Tomography Spike Analysis - Alignment Parameters
+======================================================
+
+Registration Method: Rigid + Affine
+------------------------------------
+
+General Settings:
+  metric: mutual_information
+  optimizer: gradient_descent
+  interpolator: linear
+  shrink_factors: [4, 2, 1]
+  smoothing_sigmas: [2.0, 1.0, 0.0]
+
+Rigid Registration:
+  learning_rate: 0.1
+  min_step: 1e-4
+  number_of_iterations: 500
+  relaxation_factor: 0.5
+
+Affine Registration:
+  learning_rate: 0.05
+  min_step: 1e-6
+  number_of_iterations: 1000
+  relaxation_factor: 0.5
+
+Preprocessing:
+  histogram_bins: 50
+  sampling_strategy: regular
+  sampling_percentage: 0.25
+
+Output:
+  transform_type: composite
+  output_directory: results/

@@ -1,0 +1,9 @@
+This directory contains figures generated during the AIPC tomography spike analysis.
+
+Expected outputs:
+- spike_detection_overview.png   : Overview of detected spikes across all scans
+- alignment_comparison.png       : Before/after alignment comparison
+- precision_recall_curve.png     : Precision-recall curve for spike detection
+- spike_size_distribution.png    : Distribution of detected spike sizes
+
+Figures will be generated upon running the analysis pipeline described in scripts/workflow_notes.txt.
