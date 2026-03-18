@@ -1,0 +1,41 @@
+AIPC TOMOGRAPHY WORKFLOW
+
+1. Binning
+- Factor 2 then 4
+- Improves SNR
+- Reduces resolution
+
+2. Alignment
+- Patch tracking
+- Patch size: 800x800
+- Overlap: 0.33
+- Increased iterations
+
+3. Tomogram Reconstruction
+- Thickness: 300 nm
+- Full structure captured
+
+4. Particle Picking
+- Select individual spikes
+- Avoid multiple spikes
+
+5. Masking
+- Cylindrical mask
+- Radius: 20
+- Height: 35
+- Center shift: 10
+
+6. Subtomogram Averaging
+- Align particles
+- Reduce noise
+
+7. Symmetry Constraints
+- C3 symmetry
+- Reduce rotation to 120°
+
+8. Cone Aperture
+- 60 degrees
+- Balance orientation vs noise
+
+9. Visualization
+- Chimera rendering
